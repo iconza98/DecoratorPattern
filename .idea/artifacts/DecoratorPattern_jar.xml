@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DecoratorPattern:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DecoratorPattern_jar</output-path>
+    <root id="archive" name="DecoratorPattern.jar">
+      <element id="module-output" name="DecoratorPattern" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/Driver.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/Output.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/Predicate.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/StreamOutput.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/predicates/ContainsComment.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/predicates/ContainsDigit.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/decorators/Decorator.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/decorators/FilterOutput.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/decorators/LineOutput.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/decorators/NumberedOutput.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/com/company/decorators/TeeOutput.java" />
+    </root>
+  </artifact>
+</component>
